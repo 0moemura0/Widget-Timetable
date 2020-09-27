@@ -1,0 +1,19 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryLight">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorSecondary">#000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="notSoWhite">#EEFFFFFF</color>
+    <color name="notSoWhite.Light">#99FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="notSoBlack">#424242</color>
+    <color name="notSoBlack.Light">#757575</color>
+
+    <color name="Lecture">#3EFF0000</color>
+    <color name="Practice">#3EFFA700</color>
+    <color name="LaboratoryWork">#3E9A05E1</color>
+    <color name="Consultation">#3E00ED00</color>
+</resources>

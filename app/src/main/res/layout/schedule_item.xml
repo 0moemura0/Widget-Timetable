@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/AppTheme.Text.Item"
+    android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="70dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/AppTheme.Text.Head"
+        android:text="@string/example_time"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/nameOfLesson"
+        style="@style/AppTheme.Text.Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="@string/example_typeOfLesson"/>
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/lesson"
+        style="@style/AppTheme.Text.Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="@string/example_class"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="@string/example_teacher" />
+
+        <TextView
+            android:id="@+id/auditory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:text="@string/example_address" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+    </style>
+
+    <style name="AppTheme.Text.Head" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">@color/notSoBlack</item>
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+
+    <style name="AppTheme.Text.Item" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@color/notSoBlack.Light</item>
+    </style>
+
+
+    <style name="AppTheme.ListView" parent="Widget.AppCompat.ListView">
+
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">@color/notSoWhite.Light</item>
+    </style>
+</resources>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin">
+
+    <LinearLayout
+        android:id="@+id/section_name"
+        style="@style/AppTheme.Text.Head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/group"
+            style="@style/AppTheme.Text.Head"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/example_group" />
+
+        <ImageButton
+            android:id="@+id/btn_update"
+            android:background="#00FFFFFF"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/baseline_refresh_24" />
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/AppTheme.Text.Head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/example_date" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/schedule_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/example_widget_empty_view"
+        style="@style/AppTheme.Text.Item"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:text="@string/example_schedule" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">worst-first</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="example_date">12 сентября</string>
+    <string name="example_group">N3249</string>
+    <string name="example_schedule">Сегодня нет пар</string>
+    <string name="example_time">12:00</string>
+    <string name="example_class">Математика</string>
+    <string name="example_teacher">Иванов И. И.</string>
+    <string name="example_address">1212, ул. Ломоносова</string>
+    <string name="example_typeOfLesson">Лекция</string>
+</resources>
